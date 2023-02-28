@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 40rem;
+    justify-content: flex-start;
+}
+
+.row {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.cell {
+    background-color: blue;
+    border: solid;
+    border-color: red;
+    flex: 1 1 0;
+}
