@@ -1,3 +1,8 @@
+
+div {
+    background-color: lightgray;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -14,8 +19,9 @@
 
 
 .cell {
-    background-color: blue;
-    border: solid;
-    border-color: red;
     flex: 1 1 0;
+}
+
+.drawn {
+    background-color: black;
 }
